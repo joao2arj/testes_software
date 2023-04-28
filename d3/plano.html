@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulador Bancário</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Simulador Bancário</h1>
+		<div class="form-group">
+			<label for="name">Nome:</label>
+			<input type="text" id="name">
+		</div>
+		<div class="form-group">
+			<label for="balance">Saldo Inicial:</label>
+			<input type="number" id="balance">
+		</div>
+		<div class="form-group">
+			<label for="deposit">Depósito:</label>
+			<input type="number" id="deposit">
+			<button id="deposit-btn">Depositar</button>
+		</div>
+		<div class="form-group">
+			<label for="withdraw">Saque:</label>
+			<input type="number" id="withdraw">
+			<button id="withdraw-btn">Sacar</button>
+		</div>
+		<div class="form-group">
+			<label for="balance">Saldo:</label>
+			<span id="balance-text"></span>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
